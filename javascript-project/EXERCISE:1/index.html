@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Doo</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <h1 class="logo">
+        < /> To Doo
+    </h1>
+    <main>
+        <div class="createArea card">
+            <h1>Create To Do</h1>
+            <div class="addtittle-box">
+                <label for="listTittle-input">Add list tittle</label><br>
+                <input type="text" id="listTittle-input" placeholder="Enter tittle"><br>
+                <button class="addTittleBtn ">Add Name</button>
+            </div>
+            <br>
+            <div class="addlist-box">
+                <label for="listItem">Add items to list</label><br>
+                <input type="text" id="listItem-input" placeholder="Enter items name"><br>
+                <button class="addItemBtn">Add item</button>
+            </div><br>
+            <span class="alertMsg">*</span>
+        </div>
+
+        <!------------- //output area  ----------->
+        <div class="outputArea card">
+            <h5 id="countDown"></h5>
+            <h1 id="TitleCreated">List Tittle</h1>
+            <div class="itemsCover">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <marquee>All &copy; CopyRight are reserved By Ashish Kumar</marquee>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

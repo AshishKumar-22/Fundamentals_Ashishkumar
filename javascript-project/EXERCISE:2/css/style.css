@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #2e2e2e;
+  color: white;
+}
+
+.timer-container {
+  display: flex;
+  text-align: center;
+padding: 10px;
+
+}
+
+.hand{
+  width: 10px;
+  height: 290px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 138px;
+
+}
+
+/* .hand:hover{
+transform: rotate(360deg);
+} */
+
+.hand .left{
+  background-color: #ffffff;
+  border-radius: 20px;
+  height: 50%;
+}
+.hand .right{
+  background-color: #ffffff00;
+
+  height: 50%;
+}
+
+.circle {
+  position: relative;
+  width: 260px;
+  height: 260px;
+  border: 5px solid #00ffff;
+  background-color: #2e2e2e;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+}
+
+.time-display {
+  font-size: 2.5rem;
+  margin: 10px;
+  width: 65%;
+  color: #ffffff;
+  border-radius: 10px;
+}
+
+.controls {
+
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.controls button {
+  background: #2e2e2e;
+  color: white;
+  border: 1px solid #00ffff;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.controls button:hover {
+  background: #00ffff;
+  color: #2e2e2e;
+}
+
+#input-time {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #00ffff;
+  width: 50px;
+  text-align: center;
+}
